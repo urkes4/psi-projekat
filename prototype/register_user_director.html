@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Autor: Stefan Curcic 2023/0285 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registracija nastavnika / učenika</title>
+</head>
+<body>
+
+<header>
+    <h2>Direktorski panel</h2>
+    <hr>
+</header>
+
+<h2>Registracija nastavnika / učenika</h2>
+
+<p><strong>Škola:</strong> Ilija Birčanin </p>
+
+<label>Korisničko ime:</label> 
+<input type="text" min="1" max="25">
+<br><br>
+
+<label>Lozinka:</label>
+<input type="password" min="1" max="25">
+<br><br>
+
+<label>Potvrdi lozinku:</label>
+<input type="password" min="1" max="25">
+<br><br>
+
+<label>Ime i prezime:</label>
+<input type="text" min="1" max="50">
+<br><br>
+
+<label>Odeljenje:</label>
+<select>
+    <option>---</option>
+    <option>III-1</option>
+    <option>III-2</option>
+</select>
+<br><br>
+
+<input type="radio" id="uloga_nastavnik" name="uloga" value="Nastavnik">
+<label for="uloge_nastavnik">Nastavnik</label> <br>
+<input type="radio" id="uloga_ucenik" name="uloga" value="Učenik">
+<label for="uloge_nastavnik">Učenik</label> <br>
+<br><br>
+
+<button>Registruj</button>
+
+</body>
+</html>
